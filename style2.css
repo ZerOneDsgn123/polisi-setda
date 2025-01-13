@@ -10,15 +10,14 @@ body {
   padding: 0;
   box-sizing: border-box;
   background-color: #ffffff;
-  display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100hv;
+    height: 100vh;
 }
 
 .phone-frame {
-  width: 410px;
+  width: 420px;
   background-color: #d3fde3;
   padding: 20px;
   position: relative;
@@ -627,7 +626,7 @@ footer img {
 .music-container {
   position: fixed;
   bottom: 10px;
-  left: 59%; 
+  left: 77%; 
   transform: translateX(100%);  
   z-index: 1000;
   display: flex;
@@ -677,10 +676,14 @@ footer img {
   }
 }
 
-  @media only screen and (max-width: 768px) {
-    html {
-      font-size: 90%;
-      border-width: 3px; 
-        padding: 15px;
-    }
+
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 90%;
+    padding: 15px;
   }
+  .gift-methods {
+    flex-direction: column;
+    gap: 20px;
+  }
+}

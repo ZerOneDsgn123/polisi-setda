@@ -18,7 +18,7 @@ body {
 }
 
 .phone-frame {
-  width: 90vw; /* Sesuaikan agar responsif */
+  width: 410vh; /* Sesuaikan agar responsif */
   max-width: 410px; /* Batas maksimum lebar */
   height: 100vh; /* Sesuaikan agar responsif */
   max-height: 800px; /* Batas maksimum tinggi */
